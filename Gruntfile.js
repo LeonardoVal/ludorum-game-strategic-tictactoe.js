@@ -3,6 +3,7 @@
 var path = require('path');
 
 var sourceFiles = ['__prologue__',
+	'game',
 	'__epilogue__'].map(function (module) {
 		return 'src/'+ module +'.js';
 	});
