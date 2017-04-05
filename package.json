@@ -1,0 +1,25 @@
+{
+	"name": "ludorum-strategic-tictactoe",
+	"description": "0.0.1",
+	"version": "0.0.1",
+	"main": "",
+	"author": "",
+	"contributors": [],
+	"license": "MIT",
+	"dependencies": {
+		"ludorum": "~0.1.7",
+		"creatartis-base": "~0.1.7",
+		"sermat": "~0.0.7"
+	},
+	"devDependencies": {
+		"requirejs": "~2.1.9",
+		"grunt": "~1.0.1",
+			"grunt-contrib-copy": "~1.0.0",
+			"grunt-contrib-concat": "~1.0.1",
+			"grunt-contrib-uglify": "~1.0.1",
+			"grunt-contrib-jshint": "~1.0.0",
+			"grunt-docker": "~0.0.11"
+	},
+	"scripts": {
+	}
+}
