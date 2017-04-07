@@ -1,4 +1,4 @@
-﻿/** Gruntfile for [ludorum-strategic-tictactoe.js](??).
+﻿/** Gruntfile for [ludorum-meta-tictactoe.js](??).
 */
 var path = require('path');
 

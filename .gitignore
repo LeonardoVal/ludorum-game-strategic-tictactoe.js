@@ -1,5 +1,4 @@
 ﻿bower_components/
 docs/docker/
 node_modules/
-build/
 npm-debug.log

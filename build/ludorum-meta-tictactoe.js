@@ -68,4 +68,4 @@ var StrategicTicTacToe = exports.StrategicTicTacToe = declare(ludorum.Game, {
 	Sermat.include(exports);
 	return exports;
 });
-//# sourceMappingURL=ludorum-strategic-tictactoe.js.map
+//# sourceMappingURL=ludorum-meta-tictactoe.js.map
