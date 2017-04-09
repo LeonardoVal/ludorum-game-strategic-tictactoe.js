@@ -1,4 +1,4 @@
-/** Module wrapper and layout.
+﻿/** Module wrapper and layout.
 */
 function __init__(base, Sermat, ludorum) { "use strict";
 /** Import synonyms */
