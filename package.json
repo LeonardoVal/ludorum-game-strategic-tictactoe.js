@@ -1,25 +1,41 @@
-﻿{
-	"name": "ludorum-meta-tictactoe",
-	"description": "0.0.1",
+{
+	"name": "@creatartis/ludorum-game-strategic-tictactoe",
+	"description": "Strategic tic-tac-toe board game implementation for Ludorum.",
+	"keywords": [
+		"board-game",
+		"board-game-framework",
+		"artificial-intelligence",
+		"artificial-players",
+		"javascript",
+		"strategic-tictactoe",
+		"strategic-tictactoe-game"
+	],
 	"version": "0.0.1",
-	"main": "",
-	"author": "",
+	"author": {
+		"name": "Leonardo Val",
+		"email": "leonardo.val@creatartis.com"
+	},
+	"homepage": "http://creatartis.com",
 	"contributors": [],
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/LeonardoVal/ludorum-game-strategic-tictactoe.js"
+	},
+	"main": "build/ludorum-game-strategic-tictactoe.min.js",
+	"files": [
+		"build",
+		"LICENSE.md"
+	],
 	"dependencies": {
-		"ludorum": "~0.1.7",
-		"creatartis-base": "~0.1.7",
-		"sermat": "~0.0.7"
+		"ludorum": "~0.2.2-alpha",
+		"creatartis-base": "~0.1.8",
+		"sermat": "~0.0.9"
 	},
 	"devDependencies": {
-		"requirejs": "~2.1.9",
-		"grunt": "~1.0.1",
-			"grunt-contrib-copy": "~1.0.0",
-			"grunt-contrib-concat": "~1.0.1",
-			"grunt-contrib-uglify": "~1.0.1",
-			"grunt-contrib-jshint": "~1.0.0",
-			"grunt-docker": "~0.0.11"
+		"@creatartis/creatartis-grunt": "~0.0.16-alpha"
 	},
 	"scripts": {
+		"test": "grunt"
 	}
 }
